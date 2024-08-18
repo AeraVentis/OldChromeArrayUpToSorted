@@ -28,4 +28,4 @@ Once the extension is loaded, it will automatically inject the toSorted method p
 If you encounter any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](https://opensource.org/license/mit) - see the LICENSE file for details.
