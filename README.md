@@ -4,7 +4,7 @@
 
 This repository contains a Chrome extension designed to polyfill the `Array.prototype.toSorted` method for older versions of Chrome. The extension addresses an issue that arose on the chatgpt.com page when OpenAI's developers added the `toSorted` method, causing an error message "Oops, an error occurred!" to appear on older versions of Chrome. The problem was discussed in the OpenAI community, as detailed on the [community page](https://community.openai.com/t/oops-an-error-occurred/896544/136).
 
-The `toSorted` method's code was contributed by a user named 'GenericGeneral', and this extension packages that function for seamless use. Below is the core function that was implemented:
+The `toSorted` method's code was contributed by a user named [GenericGeneral](https://community.openai.com/u/genericgeneral/summary), and this extension packages that function for seamless use. Below is the core function that was implemented:
 
 ```javascript
 if (!Array.prototype.toSorted) {
