@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Add toSorted Polyfill",
+  "version": "1.0",
+  "description": "Polyfill for Array.prototype.toSorted method on chatgpt.com and openai.com",
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*", "https://openai.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["injected.js"],
+      "matches": ["https://chatgpt.com/*", "https://openai.com/*"]
+    }
+  ]
+}
